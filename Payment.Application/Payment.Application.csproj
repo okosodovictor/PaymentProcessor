@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Business\" />
+    <None Remove="Interfaces\" />
+    <None Remove="Interfaces\Bank\" />
+    <None Remove="Managers\" />
+    <None Remove="Managers\Services\" />
+    <None Remove="Repositories\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Business\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Interfaces\Bank\" />
+    <Folder Include="Managers\" />
+    <Folder Include="Managers\Services\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Payment.Domain\Payment.Domain.csproj" />
+  </ItemGroup>
+</Project>
