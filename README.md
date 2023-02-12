@@ -1,22 +1,18 @@
-# PaymentProcessor
-
-
 # Payment Gateway
 
 Payment Gateway API:
 
-# Tools Used:
-
+## Tools Used:
 IDE: Visual studio for mac 2022.
 .net core Version: Latest .net 7.0
 Database: postgres sql.
 
-# Architecture: 
+## Architecture: 
 1. Onion Architecture which is also called Hexagonal architecture.
 2. The Solution file contains 6 projects. Paymentent.Api (presentation layer), Payment.Application (Business domain), Payment.Persistence, Payment.Domain, Payment.Banks, and Unit test project
     Payment.Test.
     
-# How to run the project:
+## How to run the project:
 
 1. Open with Visual studio 2022 for window or mac.
 2. Build the solution.
@@ -28,7 +24,7 @@ Database: postgres sql.
 5. Launch the solution i.e Payment.Api using run in visual studio or from command line.
 6. The Swagger url will be open automatially to see the REST endpoint available.
 
-# The Payment.Api expose two REST endpoint
+## The Payment.Api expose two REST endpoint
 
 1. Post request. To submit payment request from merchant to Payment gateway API.
 2. Get request. To get payment detail from Paymentgateway API usng the payment reference.
