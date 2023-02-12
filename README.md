@@ -3,7 +3,7 @@
 Payment Gateway API:
 
 ## Tools Used:
-IDE: Visual studio for mac 2022.\n
+IDE: Visual studio for mac 2022.
 .net core Version: Latest .net 7.0
 Database: postgres sql.
 
