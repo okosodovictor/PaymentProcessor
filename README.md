@@ -20,9 +20,9 @@ Database: postgres sql.
 4. Try to setup Postgre sql if you do not have already using the docker-compose file in the solution using docker command:
    i. docker-compose up.
    ii. I used DBeaver as work bench to open Postgre when it started successfully. 
- 
-5. Launch the solution i.e Payment.Api using run in visual studio or from command line.
-6. The Swagger url will be open automatially to see the REST endpoint available.
+5. Open the Payment.Persistence in terminal and run the command dotnet ef database update
+6. Launch the solution i.e Payment.Api using run in visual studio or from command line.
+7. The Swagger url will be open automatially to see the REST endpoint available.
 
 ### The Payment.Api expose two REST endpoint
 
